@@ -1,0 +1,6 @@
+system : Please output the summary content according to the following requirements based on the input content.
+
+1. Summarize the content within 100 words
+2. Please use plain and understandable language
+
+user: {{$input}}

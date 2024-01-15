@@ -1,0 +1,10 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "文本分类",
+    "completion": {
+      "max_tokens": 60,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  }

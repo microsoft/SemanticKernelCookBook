@@ -1,0 +1,175 @@
+Intro
+
+0:08
+hello and welcome to this course on
+0:11
+classical machine learning for beginners
+0:13
+whether you're completely new to the
+0:15
+topic or an experienced ml practitioner
+0:17
+looking to brush up on an area we're
+0:19
+happy to have you join us this course is
+
+Introducing ML for Beginners
+
+0:22
+based on the free open source 26 lesson
+0:25
+ml for beginners curriculum from
+0:27
+Microsoft which can be found at AKA dot
+0:30
+Ms slash ml-beginners machine learning
+0:34
+is one of the most popular Technologies
+0:36
+these days I'm sure you've heard this
+0:38
+term if you have any sort of familiarity
+0:41
+with technology no matter what domain
+0:42
+you work in however the mechanics of
+0:45
+machine learning are a mystery to most
+0:47
+people and the subject can sometimes
+0:49
+feel overwhelming in this course you'll
+0:51
+start right from the beginning and
+0:53
+you'll learn about it step by step to
+0:56
+practical Hands-On coding examples let's
+
+The difference between AI and ML
+
+0:58
+start by talking about the difference
+1:00
+between artificial intelligence and
+1:03
+machine learning AI is a science of
+1:05
+getting machines to accomplish tasks
+1:07
+that typically require human level
+1:09
+intelligence many different techniques
+1:12
+have been proposed for AI but the most
+1:14
+successful and popular approach these
+1:16
+days is machine learning
+1:19
+unlike other AI techniques ml uses
+1:22
+specialized algorithms to make decisions
+1:24
+by learning from data so machine
+1:28
+learning is really a subset of
+1:30
+artificial intelligence
+1:32
+you've also probably heard of deep
+1:33
+learning which is a subset of machine
+1:35
+learning that relies on neural networks
+1:38
+to learn from data in this course we're
+
+What you'll learn in this course
+
+1:40
+going to cover what we call classical
+1:42
+machine learning you'll learn some Core
+1:45
+Concepts of ml a bit of History
+1:48
+statistical techniques like regression
+1:50
+classification clustering and more
+1:54
+the concepts you'll learn here will
+1:55
+serve you well as you progress to more
+1:57
+
+Advanced Techniques
+
+What you won't learn in this course
+1:59
+keep in mind that this course won't
+2:00
+cover data science deep learning neural
+2:03
+networks and AI techniques other than ml
+2:06
+Microsoft offers two additional courses
+2:09
+for you to learn more about these areas
+2:10
+data science for beginners available at
+2:13
+AKA dot Ms slash data science beginners
+2:16
+and AI for beginners available at aka.ms
+2:20
+Ai and beginners machine learning is a
+
+Why study Machine Learning
+
+2:23
+Hot Topic because it's solving complex
+2:25
+real-world problems in so many areas
+2:28
+Finance earth science space exploration
+2:31
+cognitive science and many more Fields
+2:33
+have adopted machine learning to solve
+2:35
+problems specific to their domains for
+2:39
+example you can use machine learning to
+2:41
+predict the likelihood of disease from a
+2:43
+patient's medical history
+2:45
+to anticipate weather events to
+2:48
+understand the sentiment of a text and
+2:50
+to detect fake news and stop the spread
+2:52
+of propaganda applications of machine
+2:54
+learning are almost everywhere and are
+2:57
+as ubiquitous as the data that is
+2:59
+Flowing from our devices and systems
+3:01
+because of how useful it is
+3:03
+understanding the basics of machine
+3:04
+learning is going to help you no matter
+3:06
+what domain you're coming from in the
+3:09
+next video in the series I'll give an
+3:10
+overview of the history of ml I'll see
+3:13
+you there

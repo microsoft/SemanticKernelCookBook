@@ -1,0 +1,232 @@
+Intro
+
+0:08
+the process of building machine learning
+0:10
+models is very different from any other
+0:13
+development workflow in this video
+0:15
+you'll learn about that process more
+0:18
+specifically you learn about deciding
+0:20
+whether AI is the right approach for
+0:22
+your problem collecting and preparing
+0:24
+your data
+0:25
+training your model evaluating your
+0:28
+model tuning the hyper parameters and
+0:30
+testing the trained model in the real
+0:32
+world
+
+Decide if AI is the right approach
+
+0:34
+traditional software is well suited to
+0:36
+solve problems where the solution can be
+0:39
+described as a formal set of rules in
+0:42
+contrast AI shines in solving problems
+0:44
+where the solution can be extracted from
+0:46
+data many of the problems we encountered
+0:49
+in our daily life can be efficiently
+0:51
+solved with traditional programming if
+0:53
+an engineer can break up the solution of
+0:55
+a problem and Define it using precise
+0:57
+rules then traditional programming is a
+0:59
+great tool to use but many of the
+1:01
+problems we encounter in our day-to-day
+1:03
+aren't quite as easy to Define as a set
+1:05
+of rules thankfully for many of those
+1:08
+problems we have access to plenty of
+1:10
+real life data containing useful
+1:12
+information which means that AI can help
+1:14
+us find a solution one good example is
+1:17
+translating from one language to another
+1:19
+writing a set of rules that full encodes
+1:22
+all the parallels between two languages
+1:24
+is not easy but there are many examples
+1:26
+of translation online so AI has been
+1:29
+able to do a much better job of
+1:30
+translation than previous attempts so
+1:33
+our first step when we're starting a new
+1:35
+project should be to analyze the problem
+1:37
+and determine which technique is best to
+1:39
+solve it if you're able to obtain plenty
+1:41
+of data that contains useful information
+1:43
+about your solution then AI is a
+1:46
+promising approach once you decided that
+
+Collect and prepare data
+
+1:48
+AI is the right method for you you need
+1:50
+to collect and prepare your data for
+1:52
+example you may need to normalize it or
+1:54
+convert it to a different form or remove
+1:56
+rows that are missing certain Fields
+1:58
+once your data is clean you need to
+2:00
+decide about which aspects of your data
+2:03
+or features you're going to use as input
+2:05
+to your prediction and which feature you
+2:07
+want to predict for example if you have
+2:10
+medical data you may decide to use
+2:12
+features that describe the patient's
+2:14
+medical history as input and a chance of
+2:16
+a particular disease as the output
+2:18
+feature you want to predict
+2:21
+and finally you need to split your data
+2:23
+into training and test sets a usual
+2:25
+split is 80 for your training data and
+2:29
+20 for test
+
+Train your model
+
+2:31
+next you need to choose a machine
+2:33
+learning algorithm which you'll learn a
+2:35
+lot about in the coming videos if you're
+2:37
+undecided between a few good algorithms
+2:39
+you may want to try them all and see
+2:41
+which one performs best
+2:43
+then you need to train your model using
+2:45
+the training set you collected earlier
+2:47
+and the algorithm you chose training a
+2:50
+model may take a while especially if the
+2:52
+model is large
+
+Evaluate your model
+
+2:53
+once the model is trained you can test
+2:55
+it using the test data set that you
+2:57
+split earlier it's important that you
+3:00
+test the algorithm with data that it
+3:01
+hasn't seen during training to ensure
+3:04
+that it generalizes well to new
+3:06
+scenarios
+
+Tune the hyperparameters
+
+3:07
+some algorithms contain hyper parameters
+3:10
+which are settings that control key
+3:11
+aspects of their inner workings choosing
+3:14
+good hyper parameters is important
+3:16
+because they can make a big difference
+3:17
+in your results if you want to be
+3:19
+systematic about your hyper parameter
+3:21
+search you can write code that tries
+3:23
+lots of different combinations and helps
+3:26
+you discover the best values for your
+3:27
+data once you get good test results it's
+Test the model in the real world
+3:30
+time to see how well your model performs
+3:32
+within the context of its intended use
+3:34
+for example this could involve
+3:36
+collecting live data from a sensor and
+3:38
+using it to make predictions or
+3:40
+deploying a model to a few users of your
+3:42
+application if it all looks good then
+3:45
+you're ready to release it to production
+3:46
+and enjoy its benefits
+3:49
+make sure you watch the next video where
+3:51
+we'll start getting Hands-On with
+3:53
+machine learning by configuring all the
+3:55
+tools we'll use in the rest of the
+3:57
+series I'll see you there

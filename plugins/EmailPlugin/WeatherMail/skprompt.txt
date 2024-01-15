@@ -1,0 +1,1 @@
+Based on the weather and dressing tips given by {{$input}}, write an email to your traveling colleagues and ask your traveling colleagues to pay attention to the travel conditions at all times.
