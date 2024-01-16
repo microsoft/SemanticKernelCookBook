@@ -13,4 +13,5 @@ else
 fi
 
 source /opt/conda/etc/profile.d/conda.sh
+conda init
 conda activate $ENV_NAME
