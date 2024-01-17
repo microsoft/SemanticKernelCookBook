@@ -1,7 +1,7 @@
 {
     "schema": 1,
     "type": "completion",
-    "description": "穿衣提示",
+    "description": "tips",
     "completion": {
       "max_tokens": 512,
       "temperature": 0.5,
@@ -18,7 +18,7 @@
          {
           "name": "language",
           "description": "Language to translate to",
-          "defaultValue": "Chinese"
+          "defaultValue": "Spanish"
         }
       ]
     }

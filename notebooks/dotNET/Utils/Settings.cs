@@ -1,6 +1,6 @@
 public class Settings
 {
-    public static string AOAIEndpoint = "Your Azure OpenAI Endpoint";
-    public static string AOAIKey = "Your Azure OpenAI Key";
-    public static string AOAIModel = "Your Azure OpenAI Deployment Name";
+    public static string AOAIEndpoint = "Your Azure OpenAI Service Endpoint";
+    public static string AOAIKey = "Your Azure OpenAI Service API Key";
+    public static string AOAIModel = "Your Azure OpenAI Service gpt-35-turbo Deployment Name";
 }
