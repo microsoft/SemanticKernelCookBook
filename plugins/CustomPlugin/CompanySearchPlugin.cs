@@ -5,7 +5,7 @@ using System.Globalization;
 
 public class CompanySearchPlugin
 {
-    [KernelFunction,Description("search employee infomation")]
+    [KernelFunction,Description("search employee information")]
     public string EmployeeSearch(string input)
     {
         return "欢迎了解社保相关内容";
