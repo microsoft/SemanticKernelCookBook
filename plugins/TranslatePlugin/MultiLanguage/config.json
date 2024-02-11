@@ -1,29 +1,28 @@
 {
     "schema": 1,
-    "type": "completion",
     "description": "Translate sentenses into a language of your choice",
-    "completion": {
-        "max_tokens": 2000,
-        "temperature": 0.7,
-        "top_p": 0.0,
-        "presence_penalty": 0.0,
-        "frequency_penalty": 0.0,
-        "stop_sequences": [
-          "[done]"
-        ]
+    "execution_settings": {
+        "default": {
+            "max_tokens": 2000,
+            "temperature": 0.7,
+            "top_p": 0.0,
+            "presence_penalty": 0.0,
+            "frequency_penalty": 0.0,
+            "stop_sequences": [
+              "[done]"
+            ]
+        }
     },
-    "input": {
-      "parameters": [
+    "input_variables": [
         {
           "name": "input",
           "description": "sentense to translate",
-          "defaultValue": ""
+          "default": ""
         },
          {
           "name": "language",
           "description": "Language to translate to",
-          "defaultValue": ""
+          "default": ""
         }
-      ]
-    }
+    ]
 }

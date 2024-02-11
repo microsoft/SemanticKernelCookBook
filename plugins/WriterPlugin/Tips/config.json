@@ -1,25 +1,24 @@
 {
     "schema": 1,
-    "type": "completion",
     "description": "tips",
-    "completion": {
-      "max_tokens": 512,
-      "temperature": 0.5,
-      "presence_penalty": 0.0,
-      "frequency_penalty": 0.0
+    "execution_settings": {
+        "default": {
+          "max_tokens": 1024,
+          "temperature": 0.7,
+          "presence_penalty": 0.0,
+          "frequency_penalty": 0.0
+        }
     },
-    "input": {
-      "parameters": [
+    "input_variables": [
         {
           "name": "input",
           "description": "tips",
-          "defaultValue": ""
+          "default": ""
         },
          {
           "name": "language",
           "description": "Language to translate to",
-          "defaultValue": "Spanish"
+          "default": "Spanish"
         }
-      ]
-    }
+    ]
   }
