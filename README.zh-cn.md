@@ -1,5 +1,6 @@
 # **Semantic Kernel 入门手册**
 
+***注意:*** 本书的内容基于 Semantic Kernel dotnet-1.3.0 和 python-0.5.1.dev
 
 ![cover](imgs/cover.png)
 
