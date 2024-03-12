@@ -1,6 +1,4 @@
-# from semantic_kernel.skill_definition import sk_function, sk_function_context_parameter
-from semantic_kernel.plugin_definition import kernel_function,kernel_function_context_parameter
-from semantic_kernel import KernelContext
+from semantic_kernel.functions import kernel_function
 
 
 class CustomPlugin:
@@ -8,22 +6,19 @@ class CustomPlugin:
         description = "Get news from the web",
         name = "NewsPlugin"
     )
-    @kernel_function_context_parameter(name="location", description="location name")
-    def get_news_api(self, context: KernelContext) -> str:
-        return """Get news from the """ + context["location"] + """."""
+    def get_news_api(self,location:str) -> str:
+        return """Get news from the """ + location + """."""
     
     @kernel_function(
             description="Search Weather in a city",
             name="WeatherFunction"
         )
-    @kernel_function_context_parameter(name="city", description="city string")
-    def ask_weather_function(self, context: KernelContext) -> str:
-        return context["city"] + "’s weather is 30 celsius degree , and very hot."
+    def ask_weather_function(self,city: str) -> str:
+        return city + "’s weather is 30 celsius degree , and very hot."
     
     @kernel_function(
             description="Search Docs",
             name="DocsFunction" 
         )
-    @kernel_function_context_parameter(name="docs", description="docs string")
-    def ask_docs_function(self, context: KernelContext) -> str:
-        return "ask docs :" + context["docs"]
+    def ask_docs_function(self,docs: str) -> str:
+        return "ask docs :" + docs
