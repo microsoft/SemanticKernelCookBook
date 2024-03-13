@@ -1,6 +1,6 @@
 # **Semantic Kernel Cookbook**
 
-***Note:*** The content of this book is based on Semantic Kernel dotnet-1.3.0 and python-0.9.1b1
+***Note:*** The content of this book is based on Semantic Kernel dotnet-1.3.0 and python-0.9.2b1
 
 ![cover](imgs/cover.png)
 
