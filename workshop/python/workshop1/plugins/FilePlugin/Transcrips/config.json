@@ -1,6 +1,6 @@
 {
     "schema": 1,
-    "description": "Get knowledge from Transcript ",
+    "description": "Get knowledge from Transcript",
     "execution_settings": {
         "default": {
          "max_tokens": 30000,

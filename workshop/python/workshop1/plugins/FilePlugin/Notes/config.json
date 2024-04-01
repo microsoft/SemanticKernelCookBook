@@ -1,7 +1,6 @@
 {
   "schema": 1,
-  "type": "completion",
-  "description": "Get knowledge from Transcript ",
+  "description": "Get knowledge from Notes",
   "execution_settings": {
       "default": {
         "max_tokens": 13000,
