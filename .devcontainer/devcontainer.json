@@ -8,9 +8,15 @@
 	},
     "postCreateCommand": "bash ./.devcontainer/setup.sh",
 	"features": {
-		"ghcr.io/devcontainers/features/dotnet:2": "latest" ,
+		"ghcr.io/devcontainers/features/dotnet:2": {} ,
 		"ghcr.io/rocker-org/devcontainer-features/miniforge:1": {},
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/devcontainers/features/java:1": {
+		  "version": "21",
+		  "installMaven": "true",
+		  "installGradle": "true"
+		},
+		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {}
 	},
 	"customizations": {
 		"vscode": {
@@ -18,11 +24,13 @@
 				"ms-python.python",
 				"ms-dotnettools.csdevkit",
 				"ms-dotnettools.vscode-dotnet-pack",
-				"ms-azuretools.vscode-docker"
+				"ms-azuretools.vscode-docker",
+				"vscjava.vscode-java-pack"
 			]
 		}
 	},
 	"remoteEnv": {
+		"JAVA_HOME": "/usr/local/sdkman/candidates/java/21.0.2-tem/",
 		"PATH": "${containerEnv:PATH}:/usr/share/dotnet"
 	}
 

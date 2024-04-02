@@ -15,3 +15,9 @@ fi
 source /opt/conda/etc/profile.d/conda.sh
 conda init
 conda activate $ENV_NAME
+
+wget https://github.com/padreati/rapaio-jupyter-kernel/releases/download/1.3.0/rapaio-jupyter-kernel-1.3.0.jar
+java -jar ./rapaio-jupyter-kernel-1.3.0.jar -i -auto
+rm -r ./rapaio-jupyter-kernel-1.3.0.jar
+
+
