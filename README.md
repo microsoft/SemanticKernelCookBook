@@ -1,6 +1,6 @@
 # **Semantic Kernel Cookbook**
 
-***Note:*** The content of this book is based on Semantic Kernel dotnet-1.6.3 and python-0.9.4b1 and java-1.0.0-rc2
+***Note:*** The content of this book is based on Semantic Kernel dotnet-1.6.3 and python-0.9.5b1 and java-1.0.0-rc2
 
 ![cover](imgs/cover.png)
 
