@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "description": "Get knowledge from Notes",
+  "execution_settings": {
+      "default": {
+        "max_tokens": 13000,
+        "temperature": 0.6,
+        "top_p": 0.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0
+      }
+  }
+}
